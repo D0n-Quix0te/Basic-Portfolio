@@ -3,6 +3,20 @@
 	background: gray;
 }
 
+h1 {
+	width: 200px;
+	left: 200px;
+
+}
+
+nav{
+	
+	width: 300px;
+	right: 200px;
+
+}
+
+
 .box-set {
 	background-image: url('../images/concrete-texture.png');
 }
