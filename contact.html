@@ -1,66 +1,68 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<title>Joshua Jones</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body style=" margin-top: 0px;">
 
-	<div id="fixed">
+	<header>
 		<h1>Joshua Jones</h1>
+	</header>
 
-			<nav>
-				<ul>
-					<ul><a href="#">About</a></ul>
-					<ul><a href="#">Portfolio</a></ul>
-					<ul><a href="#">Contact</a></ul>
-				</ul>
-			</nav>
-
+	<div class="topnav">
+	 	<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
 	</div>
 
+	 <br>
 	
-		<div class="box-set">
-
-			<figure class="box box1">
-
-				<h1>Contact</h1><br>
-
-				 <form action="/action_page.php">
-
-					    <label for="name">Name</label> <br>
-					    <input type="text" id="name" name="name" placeholder="Your name..">	<br>	
-
-					    <label for="email">Email</label> <br>
-					    <input type="email" id="email" name="name" placeholder="Your email.."> <br>			   
-
-					    <br><label for="message">Message</label> <br>
-					    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea> <br>
-
-					    <input type="submit" value="Submit">
-
-  					</form>
-
-			</figure>
-
+	<div class="wrapper">
 		
-			<figure class="box box2">
-			
-				<aside id="contact">
-					<h2>Connnect with Me</h2>
-					<img src="assets/images/linkedin.png" alt="Linkedin Link" style="width: 60px; height: 60px;">
-					<img src="assets/images/instagram.png" alt="Instagram Link" style="width: 60px; height: 60px;">
-					<img src="assets/images/twitter.png" alt="Twitter Link" style="width: 60px; height: 60px;">
+		<section id="content">
+			<h2>Contact</h2><br>
+			<hr size="3" color="#dddddd">
+			<br>
 
-				</aside>
-			</figure>
+			<form action="/action_page.php" style="color: #dddddd;" >
+
+				<label for="name" style="color: #dddddd;">Name</label> <br>
+			    <input type="text" id="name" name="name" placeholder="Your name.." style=" width: 587px; height: 34px;">	<br>	
+
+			    <label for="email" style="color: #dddddd;">Email</label> <br>
+			    <input type="email" id="email" name="name" placeholder="Your email.." style=" width: 587px; height: 34px;"> <br>			   
+
+			    <br><label for="message" style="color: #dddddd;">Message</label> <br>
+			    <textarea id="message" name="message" placeholder="Write something.." style=" 
+			    width: 587px; height:200px"></textarea> <br>
+
+			    <input type="submit" value="Submit">
+
+  			</form>
+
+					
+			
+			<aside id="contact" style="top: -549px;">
+				<h3>Connnect with Me</h3>
+				<hr size="1" color="#dddddd"><br>
+
+				<img src="assets/images/linkedin.png" alt="Linkedin Link" style="width: 60px; height: 60px;">
+				<img src="assets/images/instagram.png" alt="Instagram Link" style="width: 60px; height: 60px;">
+				<img src="assets/images/twitter.png" alt="Twitter Link" style="width: 60px; height: 60px;">
+
+			</aside>
+
+		</section>
 
 			
 	</div>
-
+	<hr size="5" color="#4aaaa5" style="margin-bottom: 0px;">
 	<footer>Copyright &copy; Joshua Jones</footer>
+
 </body>
 </html>
